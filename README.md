@@ -1,2 +1,3 @@
-# Clase_2_Diseno_Desarrollo_Web
-Sitio Web individual para ejercicio de Clase 2
+# Repositorio individual - Manuel Gonzalez Mouriño
+
+## Diseño y Desarrollo Web
