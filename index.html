@@ -1,23 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Manuel Gonzalez Mouriño - Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <h1>Sitio individual - Home</h1>
-        <h2>Alumno: Manuel Gonzalez Mouriño</h2>
-    </header>
-    <main>
 
-        <img src="./img/infografia.png" alt="Infografia individual">
-        <p>Este es el sitio individual de la clase 2</p>
+    <header class="site-header">
+        <h1>Manuel Gonzalez Mouriño</h1>
+        <nav class="main-nav">
+            <a href="#inicio">Inicio</a>
+            <a href="#intereses">Intereses</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main class="site-main">
+
+        <section id="inicio" class="card">
+            <h2>Hola, soy Manuel</h2>
+            <p>Estudiante de Ingeniería Informática en la UADE. Me interesa el desarrollo web y el diseño de interfaces.</p>
+            <img class="main-image" src="./img/infografia.png" alt="Infografía de presentación de Manuel Gonzalez Mouriño">
+        </section>
+
+        <section id="intereses" class="card">
+            <h2>Mis intereses</h2>
+            <p>Áreas de tecnología que me apasionan y en las que busco seguir creciendo.</p>
+            <ul class="interests-list">
+                <li>Desarrollo Web frontend y backend</li>
+                <li>Diseño de interfaces UX/UI</li>
+                <li>Inteligencia artificial y machine learning</li>
+                <li>Bases de datos relacionales y no relacionales</li>
+            </ul>
+        </section>
+
+        <section id="contacto" class="card">
+            <h2>Contacto</h2>
+            <p>Podés escribirme o encontrarme en las siguientes plataformas.</p>
+            <ul class="contact-list">
+                <li><strong>Email:</strong> <a href="mailto:manuelgonzalezmou@gmail.com">manuelgonzalezmou@gmail.com</a></li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/manuelgonzalezmourino" target="_blank" rel="noopener noreferrer">linkedin.com/in/manuelgonzalezmourino</a></li>
+                <li><strong>Universidad:</strong> UADE — Ingeniería Informática</li>
+            </ul>
+            <div class="links">
+                <a class="btn" href="https://www.linkedin.com/in/manuelgonzalezmourino" target="_blank" rel="noopener noreferrer">Ver LinkedIn</a>
+                <a class="btn" href="mailto:manuelgonzalezmou@gmail.com">Enviar email</a>
+            </div>
+        </section>
+
     </main>
-    <footer>
+
+    <footer class="site-footer">
         <p>UADE - Diseño y Desarrollo Web</p>
-        <p>Ingenieria Informatica</p>
+        <p>Ingeniería Informática</p>
     </footer>
+
 </body>
 </html>
